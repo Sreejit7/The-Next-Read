@@ -1,0 +1,36 @@
+.order-page{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(246,242,249);
+  background: linear-gradient(90deg, rgba(246,242,249,1) 50%, rgba(237,226,255,1) 50%);
+}
+.order{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.deliver-to{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-complete-btn{
+  padding: 10px;
+  width: fit-content;
+  margin: 15px;
+  border-radius: 10px;
+  background: rgb(17, 1, 46);
+  color: #fff;
+  box-shadow: 0px 0px 2px 0px #fff;
+  
+}
+.order-complete-btn:hover{
+  background: rgb(53, 211, 250);
+  color: #000;
+  transition: 1s;
+  box-shadow: 0px 0px 2px 0px rgb(19, 2, 41)
+}

@@ -1,0 +1,49 @@
+.payment-page{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-form{
+  margin: auto;
+  padding: 5px ;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-element{
+  background-color: white;
+  padding: 10px 20px 11px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #afafaf;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+}
+.pay-btn{
+  padding: 10px;
+  width: 50%;
+  margin: 15px;
+  border-radius: 10px;
+  background: rgb(17, 1, 46);
+  color: #fff;
+  box-shadow: 0px 0px 2px 0px #fff;
+}
+.pay-btn:hover{
+  background: rgb(53, 211, 250);
+  color: #000;
+  transition: 1s;
+  box-shadow: 0px 0px 2px 0px rgb(19, 2, 41)
+}
+@keyframes bg-change{
+  from{
+    background: rgb(17, 1, 46);
+    color: #fff;
+  }
+  to{
+    
+  }
+}

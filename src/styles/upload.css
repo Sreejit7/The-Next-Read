@@ -1,0 +1,84 @@
+.upload-component{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background: rgba(91, 49, 170, 0.85);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0px rgb(179, 178, 178);
+  justify-content: center;
+  flex: 1;
+}
+.upload-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+.form-checkbox{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.form-check-input{
+  padding: 2px;
+  margin: 5px;
+}
+.book-upload-btn{
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  outline-width: 0;
+  background: rgb(17, 1, 46);
+  color: #fff;
+}
+.book-upload-btn:hover{
+  background: rgb(31, 195, 236);
+  color: #000;
+}
+.book-upload-btn:active{
+  opacity: 0.75;
+}
+.book-upload-btn:disabled{
+  opacity: 0.5;
+}
+
+.book-uploaded{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.redirect-links{
+  padding: 20px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+.redirect-link{
+  text-decoration: none;
+  justify-content: space-evenly;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.redirect-link:hover{
+  background: rgb(161, 69, 223);
+  color: #fff;
+}
+@media(max-width: 768px){
+  .upload-component{
+    width: 330px;
+    padding: 15px;
+  }
+}
+@media(max-width: 450px){
+  .upload-component{
+    transform: scale(0.8);
+  }
+}

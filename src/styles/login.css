@@ -1,0 +1,89 @@
+.login-page{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(246,242,249);
+  background: linear-gradient(90deg, rgba(246,242,249,1) 50%, rgba(237,226,255,1) 50%);
+}
+.login-container{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  background: rgba(91, 49, 170, 0.85);
+  color: #fff;
+  box-shadow: 4px 4px 1px 0px rgb(14, 13, 13);
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.login-container:hover{
+  background: rgb(64, 6, 131);
+}
+.login-title{
+  text-align: center;
+}
+.login-form{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-item{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.form-text{
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.login-btn{
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 3px;
+}
+.create-account-btn{
+  padding: 8px;
+  box-shadow: 0px 2px 5px 0px rgb(24, 2, 39);
+  border-radius: 5px;
+}
+.login-btn:hover{
+  background: rgb(17, 1, 46);
+  color: #fff;
+  box-shadow: 0px 0px 2px 0px #fff;
+}
+.login-btn:focus,.create-account-btn:focus{
+  border: 0.25px solid #000;
+}
+.create-account-btn:hover{
+  background: rgb(30, 3, 78);
+  color: #fff;
+  box-shadow: 0px 0px 2px 0px #fff;
+}
+.form-file-upload{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.file-input-label{
+  flex: 0.4;
+  background: rgb(253, 185, 37);
+  padding: 5px;
+  color: #000;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.file-input{
+  flex: 0.6;
+  padding: 5px;
+  background: transparent;
+  border: 0.25px solid #fff;
+  border-radius: 5px;
+}

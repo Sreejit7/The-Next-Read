@@ -1,0 +1,110 @@
+.checkout-page{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  background: rgb(246,242,249);
+  background: linear-gradient(90deg, rgba(246,242,249,1) 50%, rgba(237,226,255,1) 50%);
+}
+.checkout-component{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background: rgb(137, 44, 218);
+  color: #fff;
+  width: 40vw;
+  border-radius: 15px;
+  margin: 10px;
+}
+.homepage-link{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(99, 59, 134);
+}
+.checkout-links{
+  font-size: smaller;
+  font-style: italic;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.checkout-link{
+  text-align: center;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.checkout-link:hover{
+  background: rgb(44, 7, 112);
+  box-shadow: 0px 0px 5px 0px #fff;
+}
+.checkout-btn{
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgb(20, 3, 36);
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.checkout-btn:hover{
+  background: rgb(44, 7, 112);
+  color: #fff;
+  box-shadow: 0px 0px 2px 0px #fff;
+}
+.delivery-address{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+  padding: 10px;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+.address-inputs{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.address-input{
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: none;
+  outline-width: 0px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media(max-width: 500px){
+  .checkout-page{
+    padding: 0px;
+  }
+  .checkout-component{
+    width: 85vw;
+    transform: scale(0.9);
+  }
+  .checkout-btn{
+    transform: scale(0.9);
+  }
+}
+@media(max-width: 375px){
+  .checkout-component{
+    width: 95vw;
+    margin: 5px;
+  }
+}
+@media(max-width: 768px){
+  .address-inputs{
+    flex-direction: column;
+  }
+}

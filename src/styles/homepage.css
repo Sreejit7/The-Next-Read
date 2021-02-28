@@ -1,0 +1,52 @@
+.homepage{
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+.homepage-bg{
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.homepage-banner{
+  font-size: larger;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+.upload-link{
+  margin: 10px;
+  background: rgb(132, 17, 226);
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px #fff;
+  border-radius: 20px;
+  color: #fff;
+}
+.upload-link:hover{
+  background: rgb(31, 18, 114);
+}
+.sell{
+  font-style: italic;
+}
+@media(max-width: 768px){
+  .homepage-banner{
+    margin-top: 0px;
+  }
+}
+@media(max-width: 660px){
+  .homepage{
+    padding: 10px;
+  }
+}
+@media(max-width: 510px){
+  .homepage-bg{
+    display: none;
+  }
+}

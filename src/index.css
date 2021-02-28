@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  scroll-behavior: smooth;
+}
+h1,h2,h3, p,span,link{
+  text-align: center;
+  margin: 4px;
+}
+.btn{
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  outline-width: 0px;
+}
+.btn:hover{
+  transition: 0.5s;
+}
+.form-input{
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  margin: 4px 0px;
+  border-radius: 5px;
+}
+.form-input:focus{
+  border: 0.25px solid #000;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.login{
+  text-align: center;
+}
+.error{
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(66, 14, 109);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(84, 31, 133);
+}
