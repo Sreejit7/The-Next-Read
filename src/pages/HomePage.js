@@ -3,7 +3,7 @@ import Book from '../components/Book';
 import '../styles/homepage.css'
 import {Link} from 'react-router-dom';
 import useFirestore from '../hooks/useFirestore';
-import homebg from '../images/book-rack.webp';
+import homebg from '../images/book-rack.jpg';
 
 const HomePage = () => {
 

@@ -54,8 +54,6 @@ const StripeContainer = ({address}) => {
       console.log(error.message);
     }) 
   }; 
-
-  console.log(clientSecret, paymentError);
   
   return (
     <>
