@@ -15,7 +15,7 @@ const Sidebar = () => {
         {navItems.map((item, index) => {
           const {title, link} = item;
           return(
-            <li key = {index} className = "sidebar-item">{title}</li>
+            <li key = {index} className = "sidebar-item"><a className = "link" href = {link}>{title}</a></li>
           );
         })}
       </ul>
