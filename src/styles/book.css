@@ -44,7 +44,9 @@
 }
 .self-list-btn{
   background: rgb(100, 255, 147);
+  cursor: not-allowed;
 }
+
 /*checkout page styles */
 .book-checkout, .book-order{
   background: transparent;
