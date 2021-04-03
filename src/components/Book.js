@@ -17,11 +17,13 @@ const Book = ({book, checkout, order}) => {
   }
   return (
     <div className = {`book ${checkout && "book-checkout"} ${order && "book-order"}`} >
-      <h1 className = "book-title">{title}</h1>
-      <h3>{author}</h3>
-      {!order && <p>{publisher}</p>}
-      {!order && <span className = "book-original-price">(Original Price: ₹{originalPrice})</span>}
-      {!order && <p>Published: {publishYear}</p>}
+      <div className="book-detail">
+        <h1 className = "book-title">{title}</h1>
+        <h3>{author}</h3>
+        {!order && <p>{publisher}</p>}
+        {!order && <span className = "book-original-price">(Original Price: ₹{originalPrice})</span>}
+        {!order && <p>Published: {publishYear}</p>}
+      </div>
       <img
         src = {bookURL}
         alt = ""
