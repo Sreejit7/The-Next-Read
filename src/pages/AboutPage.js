@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const AboutPage = () => {
   return (
     <div className = "about-page">
-      <h1 className = "about-header">What You Can Do</h1>
+      <h1 className = "about-header">What We Offer</h1>
       <div className="about-containers">
         {aboutItems.map((item, index) => (
           <About key = {index} item = {item}/>

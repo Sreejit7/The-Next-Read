@@ -63,8 +63,9 @@
 }
 .library-btn:hover{
   box-shadow: 0px 0px 10px 0px rgb(34, 5, 61);
-  transition: 1s;
+  transition: 0.25s;
   transform: scale(1.1);
+  background-color: rgb(224, 221, 221);
 }
 @media(max-width: 660px){
   .about-page{
